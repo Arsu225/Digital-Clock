@@ -1,0 +1,110 @@
+/*styling to body*/ 
+body{
+    justify-content: center;
+    background-color:#2d8fb5;
+    margin-top: 5%;
+    margin-left: 40%; 
+    font-family: 'Times New Roman', Times, serif;
+     margin-right: 40%;
+    border-radius: 40px;
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+/*styling time display*/
+.time-display{
+    display: flex;
+    align-content: center;
+    background-color: rgb(179, 165, 165);
+    width: 230px;
+    height: 10%;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 35px;
+}
+/*styling timer*/
+.timer{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+/*styling clock*/
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+/*styling alarm heading*/
+.alarm-heading{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+/*styling controls button*/
+.controls button{
+    background-color: #f1f3f5;
+    border-color: #466a99;
+    color: rgb(7, 7, 7);
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+/*styling controls button*/
+.controls button:hover{
+    background-color: #204b74;
+}
+/*styling mylist*/
+#myList{
+    list-style-type: none;
+    
+}
+/*styling mylist*/
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #204b74;
+    height: 2rem;
+    margin-left: -30px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+/*styling mytimelist*/
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+/*styling mytimelist*/
+.time-list span{
+    width: 160px;
+    margin-right: 18px;
+    
+}
+/*styling mytimelist*/
+.time-list button{
+    background-color: #eff1f5;
+    border-color: #f2f3f5;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: rgb(5, 5, 5);
+}
+
+
+
+
+
+
+
